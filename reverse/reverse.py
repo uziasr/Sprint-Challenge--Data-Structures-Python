@@ -49,8 +49,3 @@ class LinkedList:
     while current_node:
       self.add_to_head(current_node.value)
       current_node = current_node.next_node
-
-r = LinkedList()
-r.add_to_head(1)
-r.reverse_list()
-print(r.head.value)
